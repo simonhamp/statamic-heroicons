@@ -9,6 +9,12 @@ Heroicons are made by Steve Schoger and Adam Wathan, Tailwind Labs.
 - PHP 7.4+
 - Statamic 3+
 
+## Installation
+
+```bash
+$ composer require simonhamp/statamic-heroicons
+```
+
 ## Usage
 
 ```
