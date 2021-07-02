@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "prod": "cp -R node_modules/heroicons/outline dist && cp -R node_modules/heroicons/solid dist"
+  },
+  "dependencies": {
+    "heroicons": "^1.0.1"
+  }
+}

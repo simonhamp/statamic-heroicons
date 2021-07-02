@@ -1,0 +1,37 @@
+{
+    "name": "simonhamp/statamic-heroicons",
+    "description": "Bring Heroicons to Antlers in Statamic",
+    "type": "statamic-addon",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SimonHamp\\StatamicHeroicons\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Simon Hamp",
+            "email": "simon.hamp@me.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/simonhamp/statamic-heroicons"
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Heroicons",
+            "description": "Add Heroicons support to your Antlers templates"
+        },
+        "laravel": {
+            "providers": [
+                "SimonHamp\\StatamicHeroicons\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "statamic/cms": "^3.0"
+    }
+}
