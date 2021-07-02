@@ -20,3 +20,11 @@ Heroicons are made by Steve Schoger and Adam Wathan, Tailwind Labs.
 
 {{ heroicons :type="variable_type" :icon="variable_icon" }}
 ```
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+## License
+
+The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more details.
