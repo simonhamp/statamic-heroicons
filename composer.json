@@ -19,7 +19,7 @@
     },
     "extra": {
         "statamic": {
-            "name": "Statamic Heroicons",
+            "name": "Heroicons",
             "description": "Add Heroicons support to your Antlers templates"
         },
         "laravel": {
