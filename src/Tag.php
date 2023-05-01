@@ -19,12 +19,13 @@ class Tag extends Tags
     {
         $icon = $this->params->get('icon');
         $class = $this->params->get('class');
+        $ariaHidden = $this->params->get('aria-hidden', 'false');
 
         if (Str::contains($tag, ':')) {
             [$tag, $icon] = explode(':', $tag);
         }
 
-        return $this->output($tag, "{$icon}.svg", compact('class'));
+        return $this->output($tag, "{$icon}.svg", compact('class', 'ariaHidden'));
     }
 
     protected function output($type, $icon, $attributes = [])
@@ -39,7 +40,8 @@ class Tag extends Tags
 
         $attr = '';
 
-        foreach ($attributes as $key => $value) {
+        foreach ($attributes as $key => (string) $value) {
+            $key = Str::kebab($key);
             $attr .= " {$key}=\"{$value}\"";
         }
 
