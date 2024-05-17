@@ -1,3 +1,6 @@
+> [!WARNING]
+> **This package is no longer maintained. Please use [`stefangalescu/statamic-heroicons`](https://github.com/stefangalescu/statamic-heroicons) instead.**
+
 # Statamic Heroicons
 A package to easily make use of [Heroicons](https://github.com/refactoringui/heroicons)
 in your Antlers views.
